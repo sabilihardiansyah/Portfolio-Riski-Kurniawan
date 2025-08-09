@@ -417,6 +417,7 @@ section{
 .radial-bars .radial-bar .progress-bar{
     stroke-width: 10;
     atop-color: black;
+    stop-color: black;
     fill: transparent;
     stroke-dasharray : 502;
     stroke-dashoffset: 502;
@@ -427,8 +428,13 @@ section{
 @keyframes animate-bar{
     100%{
         stroke-dashoffset -1;
+@keyframes animate-bar {
+    100% {
+        stroke-dashoffset: -1;
     }
 }
+
+
 .path {
     stroke-width: 10;
     stroke: #0ef;

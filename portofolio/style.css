@@ -424,8 +424,6 @@ section{
     animation: animate-bar 1s linear forwards;
 
 }
-    100%{
-        stroke-dashoffset -1;
 @keyframes animate-bar {
     100% {
         stroke-dashoffset: -1;
